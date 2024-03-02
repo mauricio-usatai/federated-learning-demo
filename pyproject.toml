@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "fl-demo"
+version = "0.1.0"
+description = ""
+authors = ["Mauricio Usatai <mauricio.usatai@gmail.com>"]
+readme = "README.md"
+packages = [{include = "fl_demo"}]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.12"
+jupyter = "^1.0.0"
+tensorflow = "2.15.0"
+numpy = "^1.26.4"
+scikit-learn = "^1.4.0"
+opencv-python = "^4.9.0.80"
+imutils = "^0.5.4"
+pandas = "^2.2.0"
+fastapi = "^0.109.2"
+uvicorn = "^0.27.0.post1"
+requests = "^2.31.0"
+pydantic-settings = "^2.1.0"
+black = "^24.2.0"
+matplotlib = "^3.8.2"
+redis = "^5.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
